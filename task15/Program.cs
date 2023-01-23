@@ -8,9 +8,9 @@
 Console.Clear();
 Console.WriteLine("Введите цифру соответствующую дню недели");
 int numberA = int.Parse(Console.ReadLine());
-if (numberA<=7&numberA>0)
+if (numberA<=7&&numberA>0)
 {
-  if (numberA!=6&numberA!=7)
+  if (numberA!=6&&numberA!=7)
   {
     Console.WriteLine("Рабочий ");
   }
